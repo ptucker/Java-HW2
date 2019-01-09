@@ -61,6 +61,7 @@ public class Person {
      * @param age new age of person
      */
     public void setAge(int age){
+        //PT -- Make sure you're getting a valid age and phone. -2
         Age = age;
     }
 
@@ -93,6 +94,7 @@ public class Person {
      * @return the pay amount
      */
     public int getPayAmount(){
+        //PT -- not all people will get paid, so this functionality shouldn't be here. -2
         return Pay;
     }
 

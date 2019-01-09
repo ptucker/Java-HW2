@@ -31,6 +31,7 @@ public class CityHall extends Building{
 
     //Description in Building class
     public void removefrom(Person p){
+        //PT -- what if the person isn't there?
         CHoccupants.remove(p);
         CHoccupants.trimToSize();
     }

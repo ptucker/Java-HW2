@@ -19,7 +19,7 @@ public class Police extends Person implements Employee
      */
     public Police(){
         role = PoliceRole.Patrol;
-        Pay = 500;
+        Pay = 500; //PT -- not all police officers make the same amount of money. Need a set function for this. -1
     }
 
     /**

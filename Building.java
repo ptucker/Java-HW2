@@ -18,6 +18,7 @@ public abstract class Building{
         Name = "Building";
         Address = "Wallaby Way Syndey Australia";
     }
+    //PT -- why not have a constructor that takes name and address?
 
     /**
      * Get Name function 

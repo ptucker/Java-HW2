@@ -56,6 +56,7 @@ public abstract class Building{
      * @param p a Person object
      * @return the associated vectors with each building class 
      */
+    //PT -- I would think this function only needs to return a bool -- whether the person was added or not.
     public abstract Vector<Person> addtoVector(Person p);
 
     /**
@@ -68,6 +69,7 @@ public abstract class Building{
      * Displays who is in each building
      * I left it abstract so each building can have it's own structure and info to display who is inside
      */
+    //PT -- I would like this to return the Vector object so that the UI can display it how it'd like to
     public abstract void WhoIn();
 
 

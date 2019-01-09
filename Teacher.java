@@ -37,7 +37,7 @@ public class Teacher extends Person implements Employee{
         this.Phone = Phone;
         this.GradeLevel = GradeLevel;
         this.cert = cert;
-        Pay = 400;
+        Pay = 400; //PT -- Again, not all teachers make the same amount of money. -1
     }
 
     /**

@@ -7,7 +7,7 @@
 
 public class CityTest{
     public static void main(String[] args){
-        
+        //PT -- why not have all of these on the City class?
         Building[] CityBuildings = {new CityHall("Chattanooga City Hall", "100 Main Street"), new School("Chattanooga Public School", "333 W Meadows Road")};
         Person[] population = {new Police("Chris Sweet", 49, 3455432, PoliceRole.Chief), new Police("Charlie Wilkins", 35, 6788765, PoliceRole.Sargent), 
         new Police("Nicki Wilson", 28, 8900987, PoliceRole.Patrol), new Police("Susan Sebastian", 42, 1234432, PoliceRole.Captain), 
